@@ -1,0 +1,59 @@
+$color_1: white;
+$color_2: black;
+$font-family_1: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+$background-color_1: #725c95;
+$background-color_2: aliceblue;
+$bg-img: url("/src/images/back.jpg");
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	font-family: $font-family_1;
+	font-size: xx-large;
+	color: $color_1;
+}
+h3 {
+	font-family: $font-family_1;
+	text-align: center;
+	color: $color_1;
+}
+body {
+	background-image: $bg-img;
+	height: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p {
+	letter-spacing: 1.9cm;
+	font-weight: bold;
+	font-size: 120%;
+	color: $color_2;
+	font-family: $font-family_1;
+}
+div {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.container {
+	background-color: $background-color_2;
+	opacity: 0.5;
+	margin: auto;
+	text-align: center;
+}
+.loader {
+	text-align: center;
+	margin: auto;
+	bottom: 50px;
+}
+.start {
+	background-color: $background-color_1;
+	color: $color_1;
+	font-size: xx-large;
+}
+.GifLoader {
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}

@@ -1,0 +1,93 @@
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  color: white;
+}
+
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background: url("/src/images/back.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  letter-spacing: 1.9cm;
+  font-weight: bold;
+  font-size: 120%;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+
+div {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.container {
+  background-color: aliceblue;
+  opacity: 0.5;
+  margin: auto;
+  text-align: center;
+}
+
+.loader {
+  text-align: center;
+  font-size: 4vw;
+  margin: auto;
+  height: 50vw; 
+  width: 50vw ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.start {
+  margin-top: 25%;
+  margin-bottom: 25%;
+  background-color: #725c95;
+  color: white;
+  font-size: xx-large;
+}
+
+.GifLoader {
+  background-position: center;
+  background-size: cover;
+}
+
+.App{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:500px;
+
+}
+
+html{
+  margin-top: 0px;
+}
+
+.bottom{
+  margin-top: 0px;
+}
